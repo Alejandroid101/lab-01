@@ -1,0 +1,76 @@
+body{
+    width: 480px;
+    margin: auto;
+    vertical-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+div{
+    vertical
+}
+
+#a{
+    height: 75px;
+    line-height: 75px;
+    background-color: red;
+}
+
+#b{
+    height: 150px;
+    line-height: 150px;
+    background-color: blue;
+}
+
+#c{
+    height: 125px;
+    line-height: 125px;
+    background-color: cyan;
+}
+
+#d{
+    height: 125px;
+    line-height: 125px;
+    background-color: green;
+}
+
+#e{
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: yellow;
+    float: left;
+}
+
+#f{
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: brown;
+    float: left;
+}
+
+#g{
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: gray;
+    float: left;
+}
+
+#h{
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: magenta;
+    float: left;
+}
+
+#i{
+    height: 80px;
+    line-height: 80px;
+    background-color: purple;
+    clear: both;
+}
