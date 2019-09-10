@@ -1,3 +1,4 @@
+
 body{
     width: 480px;
     margin: auto;
@@ -8,11 +9,8 @@ main{
     text-align: center;
 }
 
-div{
-    vertical
-}
-
 #a{
+    margin-top: 20px;
     height: 75px;
     line-height: 75px;
     background-color: red;
@@ -74,3 +72,91 @@ div{
     background-color: purple;
     clear: both;
 }
+
+@media only screen and (min-width: 768px){
+
+    body{
+        width: 960px;
+        margin: auto;
+    }
+    
+    main{
+        text-align: center;
+    }
+    
+    #a{
+        margin-top: 20px;
+        height: 100px;
+        line-height: 100px;
+        background-color: blue;
+    }
+    
+    #b{
+        height: 600px;
+        line-height: 600px;
+        width: 200px;
+        background-color: red;
+        float: left;
+    }
+    
+    #c{
+        height: 200px;
+        line-height: 200px;
+        width: 380px;
+        background-color: green;
+        float: left;
+    }
+    
+    #d{
+        height: 200px;
+        line-height: 200px;
+        width: 380px;
+        background-color: cyan;
+        float: left;
+    }
+    
+    #e{
+        width: 190px;
+        height: 250px;
+        line-height: 250px;
+        background-color: brown;
+        float: left;
+    }
+    
+    #f{
+        width: 190px;
+        height: 250px;
+        line-height: 250px;
+        background-color: orange;
+        float: left;
+    }
+    
+    #g{
+        width: 190px;
+        height: 250px;
+        line-height: 250px;
+        background-color: magenta;
+        float: left;
+    }
+    
+    #h{
+        width: 190px;
+        height: 250px;
+        line-height: 250px;
+        background-color: gray;
+        float: left;
+    }
+    
+    #i{
+        height: 150px;
+        line-height: 150px;
+        width: 760px;
+        background-color: silver;
+        float: left;
+        /* clear: both; */
+    }
+
+    #wtf{
+        float: left;
+        width: auto;
+    }
