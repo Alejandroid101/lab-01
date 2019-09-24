@@ -9,26 +9,26 @@ main{
     text-align: center;
 }
 
-#a{
+header{
     margin-top: 20px;
     height: 75px;
     line-height: 75px;
     background-color: red;
 }
 
-#b{
+aside{
     height: 150px;
     line-height: 150px;
     background-color: blue;
 }
 
-#c{
+section:nth-child(3){
     height: 125px;
     line-height: 125px;
     background-color: cyan;
 }
 
-#d{
+section:nth-child(4){
     height: 125px;
     line-height: 125px;
     background-color: green;
@@ -66,7 +66,7 @@ main{
     float: left;
 }
 
-#i{
+footer{
     height: 80px;
     line-height: 80px;
     background-color: purple;
@@ -84,14 +84,14 @@ main{
         text-align: center;
     }
     
-    #a{
+    header{
         margin-top: 20px;
         height: 100px;
         line-height: 100px;
         background-color: blue;
     }
     
-    #b{
+    aside{
         height: 600px;
         line-height: 600px;
         width: 200px;
@@ -99,7 +99,7 @@ main{
         float: left;
     }
     
-    #c{
+    section:nth-child(3){
         height: 200px;
         line-height: 200px;
         width: 380px;
@@ -107,7 +107,7 @@ main{
         float: left;
     }
     
-    #d{
+    section:nth-child(4){
         height: 200px;
         line-height: 200px;
         width: 380px;
@@ -147,7 +147,7 @@ main{
         float: left;
     }
     
-    #i{
+    footer{
         height: 150px;
         line-height: 150px;
         width: 760px;
@@ -156,7 +156,8 @@ main{
         /* clear: both; */
     }
 
-    #wtf{
+    article{
         float: left;
         width: auto;
     }
+}
